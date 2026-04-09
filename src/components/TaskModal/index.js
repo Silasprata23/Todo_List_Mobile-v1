@@ -54,7 +54,7 @@ export default function taskModal({ visible, onclose, onSave, taskToEdit }) {
         />
 
         <TextInput
-          style={styles.startData}
+          style={styles.input}
           placeholder="Data de início"
           value={form.startData}
           onChangeText={(v) =>
@@ -66,7 +66,7 @@ export default function taskModal({ visible, onclose, onSave, taskToEdit }) {
         />
 
         <TextInput
-          style={styles.endData}
+          style={styles.input}
           placeholder="Data de fim: DD/MM"
           value={form.endData}
           onChangeText={(v) =>
@@ -78,7 +78,7 @@ export default function taskModal({ visible, onclose, onSave, taskToEdit }) {
         />
 
         <TextInput
-          style={styles.priority}
+          style={styles.input}
           placeholder="Prioridade: baixa, média ou alta"
           value={form.priority}
           onChangeText={(v) =>
