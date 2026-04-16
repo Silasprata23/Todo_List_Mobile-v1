@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import { Modal, View, Text, TextInput, TouchableOpacity } from "react-native";
-import style from "../AddTask/style";
+import style from "./style.js";
 
-import {styles} from "./style";
+
 
 export default function EditTask({ visible, onClose, taskData, onSave }) {
     const [currentTask, setCurrentTask] = useState(taskData);

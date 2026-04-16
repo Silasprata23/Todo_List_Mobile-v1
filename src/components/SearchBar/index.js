@@ -1,5 +1,5 @@
 import { TextInput, View } from "react-native";
-import { styles } from "./style";
+import { styles } from "./style.js";
 
 export default function SearchBar({ value, onChangeText }) {
     return (

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import {thema } from "../../styles/global";
+import {thema } from "../../styles/global.js";
 
 export default StyleSheet.create({
     modal: {

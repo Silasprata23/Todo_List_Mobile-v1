@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 
-import { theme } from "../../styles/global";
+import { theme } from "../../styles/global.js";
 
 export default function taskCard({ item, onDelete, onEdit }) {
   const priorityColor =

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native/types_generated/index";
-import { thema } from "../../globalStyle";
+import { thema } from "../../styles/global.js";
 
 export const styles = StyleSheet.create({
   modalbody: {

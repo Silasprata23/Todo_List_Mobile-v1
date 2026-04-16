@@ -1,7 +1,7 @@
 import { Modal, View, Text, TextInput, TouchableOpacity } from "react-native";
 
 import styles from "./style.js";
-import { use } from "react";
+import { useState } from "react";
 
 export default function taskModal({ visible, onclose, onSave, taskToEdit }) {
   const [form, setForm] = useState({
